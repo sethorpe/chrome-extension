@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Quote of the Day",
+    "version": "1.0",
+    "description": "Displays a new quote each day",
+    "permissions": ["storage", "activeTab"],
+    "browser_action":{
+        "default_popup": "popup.html"
+    },
+    "background":{
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
